@@ -1,0 +1,35 @@
+/** navbar **/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 80px;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+    width: 140px;
+    margin:  0 0 0 16px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    gap: 10px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.select select {
+    padding: 6px 36px 6px 34px;
+}
+
+.button button {
+    height: 32px;
+    width: 76px;
+}
