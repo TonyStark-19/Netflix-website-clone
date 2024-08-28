@@ -17,7 +17,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
@@ -64,7 +64,7 @@ body::before {
 .select select {
     padding: 6px 20px 6px 20px;
     color: #fff;
-    background: #000;
+    background: transparent;
     border-radius: 5px;
     height: 32px;
     width: 120px;
@@ -82,7 +82,7 @@ body::before {
 }
 
 .button button:hover {
-    background: #f40612;
+    background: #c11119;
 }
 
 /** Center text **/
@@ -96,4 +96,113 @@ body::before {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.center-text .heading1 h1 {
+    font-size: 56px;
+    margin: 0 0 16px;
+}
+
+.center-text .plan p {
+    font-size: 20px;
+    margin: 0 0 32px;
+}
+
+.center-text .heading2 h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/** input area **/
+
+.get-started {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 0;
+    height: 72px;
+    width: 588px;
+    align-items: center;
+    position: relative;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-box input {
+    height: 57px;
+    width: 370px;
+    padding: 24px 16px 8px;
+    box-sizing: border-box;
+    margin-right: 13px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: 0;
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    transform: translateY(-120%);
+    font-size: 0.8rem;
+    top: 25px;
+    left: 12px;
+    z-index: 1;
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.button2 button {
+    height: 100%;
+    width: 205px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #e50914;
+    color: #fff;
+}
+
+.button2 button:hover {
+    background: #c11119;
+}
+
+/** responsive **/
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .input-box input {
+        width: 100%;
+    }
+
+    .get-started {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button2 button {
+        width: 100%;
+    }
 }
