@@ -1,3 +1,26 @@
+/** background **/
+
+body {
+    background: #000;
+    background-image: url('images/Netflix-background.png');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
 /** navbar **/
 
 .navbar {
@@ -5,19 +28,32 @@
     flex-direction: row;
     padding: 0 80px;
     justify-content: space-between;
+    height: 80px;
+    width: 1200px;
+    max-width: 1200px;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.wrap, .logo, .button, .select select {
+    position: relative;
+    z-index: 2;
 }
 
 .logo {
     height: 40px;
-    width: 140px;
-    margin:  0 0 0 16px;
+    width: 148px;
+    margin: 10px 0 0 58px;
 }
 
 .wrap {
     display: flex;
     flex-direction: row;
     padding: 3px;
-    gap: 10px;
+    gap: 12px;
+    margin-top: 10px;
+    margin-right: -70px;
 }
 
 .logo img {
@@ -26,10 +62,38 @@
 }
 
 .select select {
-    padding: 6px 36px 6px 34px;
+    padding: 6px 20px 6px 20px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    height: 32px;
+    width: 120px;
+    font-size: 16px;
 }
 
 .button button {
     height: 32px;
     width: 76px;
+    color: #fff;
+    background: #e50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button button:hover {
+    background: #f40612;
+}
+
+/** Center text **/
+
+.center-text {
+    padding: 0 32px 32px;
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
