@@ -4,65 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix website clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Netflix.css">
 </head>
 <body>
 
-    <header class="navbar">
+    <div class="background-section">
 
-        <div class="logo">
-            <img src="images/Netflix-logo.png" alt="logo">
+        <header class="navbar">
+
+            <div class="logo">
+                <img src="images/Netflix-logo.png" alt="logo">
+            </div>
+    
+            <div class="wrap">
+    
+                <div class="select">
+    
+                    <select>
+                        <option value="english">English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+        
+                </div>
+        
+                <div class="button">
+        
+                    <button>Sign in</button>
+                    
+                </div>
+    
+            </div>
+    
+        </header>
+    
+        <section class="center-text">
+    
+            <div class="heading1">
+                <h1>Unlimited movies,<br>TV shows and more</h1>
+            </div>
+    
+            <div class="plan">
+                <p>Starts at ₹149. Cancel anytime.</p>
+            </div>
+    
+            <div class="heading2">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            </div>
+    
+            <form class="get-started">
+    
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email address</label>
+                </div>
+    
+                <div class="button2">
+                    <button type="submit">Get Started<i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                
+            </form>
+            
+        </section>
+
+    </div>
+
+    <section class="content">
+
+        <div class="heading3">
+            <h2>Trending Now</h2>
         </div>
 
-        <div class="wrap">
-
-            <div class="select">
+            <div class="options">
 
                 <select>
-                    <option value="english">English</option>
-                    <option value="hindi">Hindi</option>
+                    <option value="india">India</option>
+                    <option value="global">Global</option>
                 </select>
-    
-            </div>
-    
-            <div class="button">
-    
-                <button>Sign in</button>
-                
-            </div>
 
-        </div>
+                <select>
+                    <option value="movies">Movies</option>
+                    <option value="tv shows">TV Shows</option>
+                </select>
 
-    </header>
-
-    <section class="center-text">
-
-        <div class="heading1">
-            <h1>Unlimited movies,<br>TV shows and more</h1>
-        </div>
-
-        <div class="plan">
-            <p>Starts at ₹149. Cancel anytime.</p>
-        </div>
-
-        <div class="heading2">
-            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-        </div>
-
-        <form class="get-started">
-
-            <div class="input-box">
-                <input type="email" required>
-                <label>Email address</label>
             </div>
 
-            <div class="button2">
-                <button type="submit">Get Started</button>
-            </div>
-            
-        </form>
-        
-        
     </section>
     
 </body>
