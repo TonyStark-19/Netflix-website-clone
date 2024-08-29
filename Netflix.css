@@ -22,7 +22,6 @@
     z-index: 1;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -214,6 +213,8 @@ button i {
     color: #fff;
 }
 
+/** select **/
+
 .options {
     display: flex;
     gap: 20px;
@@ -224,6 +225,78 @@ button i {
     background: transparent;
     color: #fff;
     border-radius: 5px;
+}
+
+/** top 10 movies **/
+
+.image-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.image-wrap .images-box {
+    height: 252px;
+    width: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 8px 22px;
+}
+
+.images-box img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+/** more reasons to join **/
+
+.heading4 h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+/** boxes **/
+
+.box-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.box {
+    height: 280px;
+    width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+
+.text-wrap {
+    padding: 24px 16px 128px;
+}
+
+.text-wrap h3 {
+    font-size: 25px;
+    color: #fff;
+    margin: 16px 0 0 0;
+}
+
+.text-wrap p {
+    font-size: 17px;
+    color: #ffffffb3;
+    margin: 16px 0 0 0;
+}
+
+/** questions **/
+
+.heading5 {
+    font-size: 22px;
+    color: #ffffff;
 }
 
 /** responsive **/
