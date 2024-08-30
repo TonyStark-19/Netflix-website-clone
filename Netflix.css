@@ -294,9 +294,81 @@ button i {
 
 /** questions **/
 
-.heading5 {
+.heading5 h3 {
     font-size: 22px;
     color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.question-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    width: 96%;
+    padding: 24px;
+    background: #2d2d2d;
+    transition: all 0.3s ease;
+}
+
+.question:hover {
+    background: #414141;
+} 
+
+.question h3 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.question i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/** from below questions **/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.heading6 h3 {
+    font-size: 16px;
+    margin: 0 0 -5px 0;
+    margin-left: 200px;
+}
+
+#input2 {
+    width: 560px;
+    font-size: 16px;
+}
+
+/** footer **/
+
+footer {
+    background: #000;
+    padding: 0 148px 96px 148px;
+}
+
+.contact {
+    margin: 32px 0 0;
+    padding: 3px;
+}
+
+.contact p, .contact a {
+    font-size: 16px;
+    color: #ffffffb3;
 }
 
 /** responsive **/
