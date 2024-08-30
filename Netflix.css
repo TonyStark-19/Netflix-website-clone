@@ -245,6 +245,11 @@ button i {
     display: flex;
     justify-content: center;
     padding: 8px 22px;
+    transition: all 0.3s ease;
+}
+
+.images-box:hover {
+    scale: 1.08;
 }
 
 .images-box img {
@@ -349,6 +354,10 @@ button i {
     margin-left: 200px;
 }
 
+#input-box {
+    background: #0f0f0f;
+}
+
 #input2 {
     width: 560px;
     font-size: 16px;
@@ -358,7 +367,7 @@ button i {
 
 footer {
     background: #000;
-    padding: 0 148px 96px 148px;
+    padding: 0 148px 90px 148px;
 }
 
 .contact {
@@ -368,6 +377,45 @@ footer {
 
 .contact p, .contact a {
     font-size: 16px;
+    color: #ffffffb3;
+}
+
+/** footer panel **/
+
+.foot-panel {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul .row1, ul .row2,
+ul .row3, ul .row4 {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style: none;
+    width: 280px;
+    height: 21px;
+    margin: 12px 0 0;
+}
+
+ul a {
+    color: #ffffffb3;
+    text-decoration: underline 1px;
+}
+
+#foot {
+    background: #000;
+    margin-bottom: 25px;
+}
+
+.foot-text p {
+    font-size: 14px;
     color: #ffffffb3;
 }
 
