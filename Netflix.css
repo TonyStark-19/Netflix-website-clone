@@ -26,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    font: 1em sans-serif;
 }
 
 /** navbar **/
@@ -140,7 +141,7 @@ body {
 
 .input-box input {
     height: 57px;
-    width: 370px;
+    width: 400px;
     padding: 24px 16px 8px;
     box-sizing: border-box;
     margin-right: 13px;
@@ -252,14 +253,27 @@ select option {
 }
 
 .image-wrap .images-box {
+    position: relative;
     min-height: 252px;
     min-width: 180px;
     border-radius: 8px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     padding: 8px 22px;
     transition: all 0.3s ease;
+}
+
+.number {
+    position: absolute;
+    bottom: 5px;
+    left: -3px;
+    background: transparent;
+    color: #000;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px  1px 0 white, 1px  1px 0 white; 
 }
 
 .images-box:hover {
@@ -300,7 +314,7 @@ select option {
 }
 
 .text-wrap h3 {
-    font-size: 25px;
+    font-size: 23px;
     color: #fff;
     margin: 16px 0 0 0;
 }
