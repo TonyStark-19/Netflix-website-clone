@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    margin-bottom: 220px;
 }
 
 .background-section::before {
@@ -56,6 +57,8 @@ body {
     z-index: 2;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .sign-in-box {
@@ -70,9 +73,9 @@ body {
 /** title **/
 
 .sign-in-box .title h1 {
-    font-size: 36px;
+    font-size: 32px;
     color: #ffffff;
-    margin-bottom: 28px;
+    margin: 10px 0 28px 0;
 }
 
 /** Input box **/
@@ -164,9 +167,14 @@ body {
     font-size: 1.1rem;
     cursor: pointer;
     border-radius: 5px;
-    border: none;
-    background: red;
     color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.code button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /** forgot password **/
@@ -242,4 +250,111 @@ input[type="checkbox"]:hover {
     padding: 0 0 0 12px;
     font-size: 16px;
     color: #ffffff;
+}
+
+/** New account **/
+
+.new {
+    margin-top: 20px;
+}
+
+.new p {
+    font-size: 16px;
+    color: #ffffffb3;
+}
+
+.new p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.new p a:hover {
+    text-decoration: underline;
+}
+
+/** recaptcha **/
+
+.bottom-text {
+    margin: 20px 0;
+}
+
+.bottom-text p {
+    font-size: 13px;
+    color: #8c8c8c;
+    line-height: 18px;
+}
+
+.bottom-text p a {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.bottom-text p a:hover {
+    text-decoration: underline;
+}
+
+/** footer **/
+
+footer {
+    background: #000;
+    margin: 72px 120px;
+}
+
+.wrapper {
+    padding: 0 48px;
+}
+
+/** contact number **/
+
+.contact {
+    margin: 32px 0 0;
+    padding: 3px;
+}
+
+.contact p, .contact a {
+    font-size: 16px;
+    color: #ffffffb3;
+}
+
+/** panel **/
+
+.foot-panel {
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul .row1, ul .row2,
+ul .row3, ul .row4 {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style: none;
+    width: 280px;
+    height: 21px;
+    margin: 12px 0 0;
+    font-size: 14px;
+}
+
+ul a {
+    color: #ffffffb3;
+    text-decoration: underline 1px;
+}
+
+/** select **/
+
+.select select {
+    padding: 6px 20px 6px 20px;
+    color: #fff;
+    background: #000;
+    height: 32px;
+    width: 120px;
+    font-size: 16px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
 }
