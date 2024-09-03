@@ -358,3 +358,8 @@ ul a {
     border: 1px solid #5e5e5e;
     border-radius: 5px;
 }
+
+select option {
+    background: #fff;
+    color: #000;
+}
