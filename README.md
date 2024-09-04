@@ -2,10 +2,6 @@
 
 This project is a clone of the Netflix website, created as part of a personal coding challenge. The clone showcases the use of HTML, CSS, and JavaScript to mimic the design and functionality of Netflix's user interface.
 
-## Live Demo
-
-You can view the live demo of the project [here](https://tonystark-19.github.io/Netflix-website-clone/).
-
 ## Features
 
 - **Header:** Includes Netflix logo, navigation menu, and search bar.
