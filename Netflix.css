@@ -44,7 +44,10 @@ body {
     position: relative;
 }
 
-.wrap, .logo, .button, .select select {
+.wrap,
+.logo,
+.button,
+.select select {
     position: relative;
     z-index: 2;
 }
@@ -273,7 +276,7 @@ select option {
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px  1px 0 white, 1px  1px 0 white; 
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 .images-box:hover {
@@ -354,7 +357,7 @@ select option {
 
 .question:hover {
     background: #414141;
-} 
+}
 
 .question h3 {
     font-size: 24px;
@@ -403,7 +406,8 @@ footer {
     padding: 3px;
 }
 
-.contact p, .contact a {
+.contact p,
+.contact a {
     font-size: 16px;
     color: #ffffffb3;
 }
@@ -419,8 +423,10 @@ ul {
     padding: 0px;
 }
 
-ul .row1, ul .row2,
-ul .row3, ul .row4 {
+ul .row1,
+ul .row2,
+ul .row3,
+ul .row4 {
     display: flex;
     flex-direction: row;
 }

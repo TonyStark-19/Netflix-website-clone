@@ -206,12 +206,12 @@ body {
 
 input[type="checkbox"] {
     -webkit-appearance: none;
-    -moz-appearance: none;   
-    appearance: none;  
+    -moz-appearance: none;
+    appearance: none;
     width: 18px;
     height: 18px;
     transform: scale(1.05);
-    background-color: #000; 
+    background-color: #000;
     border: 2px solid #555;
     border-radius: 3px;
     position: relative;
@@ -311,7 +311,8 @@ footer {
     padding: 3px;
 }
 
-.contact p, .contact a {
+.contact p,
+.contact a {
     font-size: 16px;
     color: #ffffffb3;
 }
@@ -327,8 +328,10 @@ ul {
     padding: 0px;
 }
 
-ul .row1, ul .row2,
-ul .row3, ul .row4 {
+ul .row1,
+ul .row2,
+ul .row3,
+ul .row4 {
     display: flex;
     flex-direction: row;
 }
