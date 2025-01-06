@@ -2,6 +2,11 @@
 
 This project is a clone of the Netflix website, created as part of a personal coding challenge. The clone showcases the use of HTML, CSS, and JavaScript to mimic the design and functionality of Netflix's user interface.
 
+## Screenshots
+
+### Homepage :
+![Homepage Screenshot](images/image.png)
+
 ## Features
 
 - **Header:** Includes Netflix logo, navigation menu, and search bar.
