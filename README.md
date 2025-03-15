@@ -1,24 +1,67 @@
-# Netflix Website Clone
+# 🎬 Netflix Website Clone
 
-This project is a clone of the Netflix website, created as part of a personal coding challenge. The clone showcases the use of HTML, CSS, and JavaScript to mimic the design and functionality of Netflix's user interface.
+This project is a **clone of the Netflix website**, created as part of a personal coding challenge. The clone showcases the use of **HTML, CSS, and JavaScript** to mimic the design and functionality of Netflix's user interface.
 
-## Screenshots
+---
 
-### Homepage :
+## 📸 Screenshots
+
+### 🏠 Homepage :
 ![Homepage Screenshot](images/image.png)
 
-## Features
+---
 
-- **Header:** Includes Netflix logo, navigation menu, and search bar.
-- **Hero Section:** A full-screen banner with a background image and a call-to-action button.
-- **Content Sections:** Multiple sections showcasing various content categories, including movies and TV shows.
-- **Responsive Design:** The layout adjusts to different screen sizes and devices.
+## 🚀 Features
 
-## Technologies Used
+- 🖥️ **Header:** Includes Netflix logo, navigation menu, and search bar.
+- 🎭 **Hero Section:** A full-screen banner with a background image and a call-to-action button.
+- 🎬 **Content Sections:** Multiple sections showcasing various content categories, including movies and TV shows.
+- ❓ **FAQ Section with Toggle Functionality:** Expand and collapse FAQs using JavaScript.
 
-- **HTML5** - For structuring the web pages.
-- **CSS3** - For styling the website and creating responsive layouts.
+---
 
-## Acknowledgments
+## 🛠️ Technologies Used
 
-- [Netflix](https://www.netflix.com) for inspiration.
+- 🖥️ **HTML5** - For structuring the web pages.
+- 🎨 **CSS3** - For styling the website and creating responsive layouts.
+- ⚡ **JavaScript (Vanilla JS)** - For handling the FAQ toggle functionality.
+
+---
+
+## 📂 Project Structure
+
+```
+Netflix-Clone/
+│
+├── index.html
+├── styles.css
+├── script.js
+├── images/
+│   └── image.png
+└── README.md
+```
+
+---
+
+## 🎯 How to Run the Project
+
+1️⃣ Clone the repository:
+```bash
+  git clone https://github.com/your-username/netflix-clone.git
+```
+
+2️⃣ Open the project folder:
+```bash
+  cd netflix-clone
+```
+
+3️⃣ Open the `index.html` file in your browser.
+
+---
+
+## 🌟 Acknowledgments
+
+- 🎬 [Netflix](https://www.netflix.com) for design inspiration.
+
+---
+
