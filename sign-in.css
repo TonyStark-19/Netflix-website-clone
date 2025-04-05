@@ -1,15 +1,13 @@
 /** background **/
 
 .background-section {
-    background: #000;
     background-image: url('images/Netflix-background.png');
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-bottom: 220px;
 }
 
 .background-section::before {
@@ -26,7 +24,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #141414;
     font: 1em sans-serif;
 }
 
@@ -64,10 +62,11 @@ body {
 .sign-in-box {
     position: relative;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.75);
     min-height: 500px;
     min-width: 300px;
     padding: 48px 68px;
+    border-radius: 7px;
 }
 
 /** title **/
@@ -85,7 +84,7 @@ body {
 }
 
 .box1 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .input-box input {
@@ -94,8 +93,8 @@ body {
     padding: 24px 16px 8px;
     box-sizing: border-box;
     margin-right: 13px;
-    background-color: transparent;
-    border: 2px solid #5e5e5e;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #5e5e5e;
     border-radius: 5px;
     font-size: 14px;
     color: #fff;
@@ -133,13 +132,14 @@ body {
 .button button {
     height: 40px;
     width: 314px;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
     border: none;
     background: #e50914;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .button button:hover {
@@ -164,7 +164,8 @@ body {
 .code button {
     height: 40px;
     width: 314px;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
     color: #fff;
@@ -186,13 +187,8 @@ body {
 }
 
 .forgot-password a {
-    text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-}
-
-.forgot-password a:hover {
-    text-decoration: underline;
 }
 
 /** remember password **/
@@ -266,6 +262,7 @@ input[type="checkbox"]:hover {
 .new p a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .new p a:hover {
@@ -282,26 +279,24 @@ input[type="checkbox"]:hover {
     font-size: 13px;
     color: #8c8c8c;
     line-height: 18px;
+    font-weight: 600;
 }
 
 .bottom-text p a {
     color: #0071eb;
-    text-decoration: none;
-}
-
-.bottom-text p a:hover {
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 /** footer **/
 
 footer {
-    background: #000;
-    margin: 72px 120px;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper {
     padding: 0 48px;
+    margin: 72px 100px;
 }
 
 /** contact number **/
@@ -311,8 +306,7 @@ footer {
     padding: 3px;
 }
 
-.contact p,
-.contact a {
+.contact p {
     font-size: 16px;
     color: #ffffffb3;
 }
@@ -326,14 +320,9 @@ footer {
 
 ul {
     padding: 0px;
-}
-
-ul .row1,
-ul .row2,
-ul .row3,
-ul .row4 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -365,4 +354,79 @@ ul a {
 select option {
     background: #fff;
     color: #000;
+}
+
+/* responsiveness */
+
+@media (max-width: 1250px) {
+
+    .background-section {
+        height: 125vh;
+    }
+
+    .navbar {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .wrapper {
+        margin: 72px 0;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .logo {
+        height: 24px;
+        width: 89px;
+    }
+
+    .wrapper {
+        margin: 30px 0;
+    }
+
+    .contact {
+        margin: 0;
+    }
+}
+
+@media (max-width: 670px) {
+
+    ul li {
+        width: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .background-section {
+        background-image: none;
+    }
+
+    .sign-in-box {
+        padding-top: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .input-box input,
+    .code button,
+    .button button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    ul {
+        margin-bottom: 40px;
+    }
+
+    ul li {
+        width: 110px;
+    }
 }
