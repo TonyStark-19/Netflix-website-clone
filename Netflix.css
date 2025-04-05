@@ -1,14 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+
 /** background **/
 
 .background-section {
-    background: #000;
     background-image: url('images/Netflix-background.png');
     background-size: cover;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .background-section::before {
@@ -23,10 +31,12 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
     background-color: #000;
-    font: 1em sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /** navbar **/
@@ -34,14 +44,15 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    padding: 0 80px;
+    padding: 0 148px;
     justify-content: space-between;
     height: 80px;
-    width: 1200px;
+    width: 100%;
     max-width: 1200px;
     align-items: center;
     z-index: 2;
-    position: relative;
+    position: absolute;
+    top: 10px;
 }
 
 .wrap,
@@ -55,7 +66,6 @@ body {
 .logo {
     height: 40px;
     width: 148px;
-    margin: 10px 0 0 58px;
 }
 
 .wrap {
@@ -64,7 +74,6 @@ body {
     padding: 3px;
     gap: 12px;
     margin-top: 10px;
-    margin-right: -70px;
 }
 
 .logo img {
@@ -91,6 +100,7 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -115,16 +125,19 @@ body {
 .center-text .heading1 h1 {
     font-size: 56px;
     margin: 0 0 16px;
+    font-weight: 800;
 }
 
 .center-text .plan p {
     font-size: 20px;
     margin: 0 0 32px;
+    font-weight: 600;
 }
 
 .center-text .heading2 h3 {
     font-size: 16px;
     margin: 0;
+    font-weight: 600;
 }
 
 /** input area **/
@@ -149,8 +162,8 @@ body {
     padding: 24px 16px 8px;
     box-sizing: border-box;
     margin-right: 13px;
-    background-color: transparent;
-    border: 2px solid #5e5e5e;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #5e5e5e;
     border-radius: 5px;
     font-size: 14px;
     color: #fff;
@@ -193,6 +206,7 @@ body {
     border: none;
     background: #e50914;
     color: #fff;
+    font-weight: 600;
 }
 
 button i {
@@ -216,6 +230,7 @@ button i {
 .heading3 h2 {
     font-size: 24px;
     color: #fff;
+    margin-top: 40px;
 }
 
 /** select **/
@@ -241,13 +256,40 @@ select option {
 
 /** top 10 movies **/
 
+.image-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll-icon {
+    background: #ffffff1a;
+    width: 24px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 12px;
+}
+
+#small-icon-left {
+    margin-right: 12px;
+}
+
+.scroll-icon:hover {
+    background: #414141;
+}
+
 .image-wrap {
     display: flex;
     flex-direction: row;
     gap: 15px;
     margin-top: 25px;
     margin-bottom: 70px;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1400px;
     overflow: hidden;
     overflow-x: scroll;
 }
@@ -372,6 +414,7 @@ select option {
 .question h3 {
     font-size: 24px;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .question i {
@@ -444,6 +487,10 @@ footer {
     color: #ffffffb3;
 }
 
+.contact a {
+    letter-spacing: 1px;
+}
+
 /** footer panel **/
 
 .foot-panel {
@@ -485,24 +532,4 @@ ul a {
     color: #ffffffb3;
 }
 
-/** responsive **/
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .input-box input {
-        width: 100%;
-    }
-
-    .get-started {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .button2 button {
-        width: 100%;
-    }
-}
+/** responsiveness **/
