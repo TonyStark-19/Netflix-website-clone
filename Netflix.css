@@ -21,6 +21,17 @@
     z-index: 1;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -98,7 +109,6 @@ body {
 /** Center text **/
 
 .center-text {
-    margin-top: 70px;
     padding: 0 32px 32px;
     z-index: 2;
     position: absolute;
@@ -449,13 +459,12 @@ select option {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 200px;
+    width: 100%;
 }
 
 .heading6 h3 {
     font-size: 16px;
     margin: 0 0 -5px 0;
-    margin-left: 200px;
 }
 
 #input-box {
@@ -603,6 +612,36 @@ ul a {
     .scroll-icon {
         margin-top: 80px;
     }
+
+    /* boxes */
+
+    .box-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box {
+        height: 190px;
+        width: 100%;
+    }
+
+    .text-wrap {
+        padding: 24px 24px 96px;
+    }
+
+    .text-wrap h3 {
+        font-size: 20px;
+    }
+
+    .text-wrap p {
+        font-size: 16px;
+    }
+
+    /* questions */
+
+    .heading5 h3 {
+        margin-top: -20px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -630,6 +669,77 @@ ul a {
     .input-box input {
         width: 250px;
     }
+
+    /* content */
+
+    .content {
+        padding: 0 32px;
+    }
+
+    /* top - 10 movies */
+
+    .heading3 h2 {
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+
+    .image-wrap {
+        gap: 5px;
+    }
+
+    .image-wrap .images-box {
+        min-height: 156px;
+        min-width: 112px;
+        padding: 5px 10px;
+    }
+
+    .scroll-icon {
+        margin-top: 50px;
+    }
+
+    .options {
+        display: none;
+    }
+
+    /* boxes */
+
+    .heading4 h2 {
+        font-size: 18px;
+        margin: 12px 0 10px;
+    }
+
+    .box-wrap {
+        grid-template-columns: 1fr;
+        margin-bottom: -10px;
+    }
+
+    .box {
+        margin-bottom: -10px;
+    }
+
+    /* questions */
+
+    .heading5 h3 {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    .question h3,
+    .answer span {
+        font-size: 18px;
+    }
+
+    .question {
+        width: 90%;
+    }
+
+    .question i {
+        font-size: 25px;
+    }
+
+    #get-started {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -656,6 +766,12 @@ ul a {
     .button2 button {
         width: 160px;
     }
+
+    /* boxes */
+
+    .text-wrap {
+        padding: 24px 16px 80px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -681,5 +797,11 @@ ul a {
 
     .get-started {
         width: 100%;
+    }
+
+    /* question */
+
+    .question {
+        width: 85%;
     }
 }
