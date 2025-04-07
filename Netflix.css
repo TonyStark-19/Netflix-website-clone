@@ -90,6 +90,12 @@ body {
     border-radius: 5px;
 }
 
+.button a {
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .button button {
     height: 32px;
     width: 76px;
@@ -210,6 +216,9 @@ body {
     background: #e50914;
     color: #fff;
     font-weight: 600;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button i {
@@ -282,6 +291,13 @@ select option {
     margin-right: 12px;
 }
 
+.scroll-icon,
+#small-icon-left {
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .scroll-icon:hover {
     background: #414141;
 }
@@ -312,6 +328,9 @@ select option {
     padding: 8px 22px;
     cursor: pointer;
     transition: all 0.3s ease;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .number {
@@ -394,6 +413,9 @@ select option {
     gap: 10px;
     margin-bottom: 80px;
     cursor: pointer;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .question-wrap {
@@ -440,6 +462,7 @@ select option {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 96%;
 }
 
 .answer span {
@@ -517,6 +540,9 @@ ul li {
     width: 300px;
     height: 21px;
     margin: 12px 0 0;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 ul a {
@@ -642,6 +668,12 @@ ul a {
     .heading5 h3 {
         margin-top: -20px;
     }
+
+    /* footer */
+
+    footer {
+        padding: 0 80px 96px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -729,7 +761,8 @@ ul a {
         font-size: 18px;
     }
 
-    .question {
+    .question,
+    .answer {
         width: 90%;
     }
 
@@ -739,6 +772,27 @@ ul a {
 
     #get-started {
         width: 100%;
+    }
+
+    .button2 {
+        height: 48px;
+    }
+
+    .heading6 h3 {
+        font-weight: 500;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 0 32px 96px;
+    }
+}
+
+@media (max-width: 840px) {
+
+    #input2 {
+        width: 380px;
     }
 }
 
@@ -772,6 +826,24 @@ ul a {
     .text-wrap {
         padding: 24px 16px 80px;
     }
+
+    #get-started {
+        align-items: normal;
+    }
+
+    #input2 {
+        width: 110%;
+    }
+
+    #foot {
+        width: 124px;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 0 24px 96px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -781,10 +853,6 @@ ul a {
     .navbar {
         padding: 0 24px;
         width: 90%;
-    }
-
-    .select select {
-        width: 80px;
     }
 
     .center-text,
@@ -801,7 +869,15 @@ ul a {
 
     /* question */
 
-    .question {
+    .question,
+    .answer {
         width: 85%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .select select {
+        width: 80px;
     }
 }
