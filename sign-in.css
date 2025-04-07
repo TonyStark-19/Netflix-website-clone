@@ -37,6 +37,12 @@ body {
     margin-left: 120px;
 }
 
+.navbar a {
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .logo {
     height: 40px;
     width: 148px;
@@ -140,6 +146,9 @@ body {
     background: #e50914;
     color: #fff;
     margin-top: 15px;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .button button:hover {
@@ -172,6 +181,9 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     border: none;
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .code button:hover {
@@ -212,6 +224,9 @@ input[type="checkbox"] {
     border-radius: 3px;
     position: relative;
     cursor: pointer;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input[type="checkbox"]::before {
@@ -394,6 +409,10 @@ select option {
     .contact p {
         margin: 0;
     }
+
+    .contact p {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -407,7 +426,7 @@ select option {
 
     .background-section {
         background-image: none;
-        height: 115vh;
+        height: 110vh;
     }
 
     .sign-in-box {
