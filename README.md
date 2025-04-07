@@ -1,6 +1,7 @@
 # 🎬 Netflix Website Clone
 
-This project is a **clone of the Netflix website**, created as part of a personal coding challenge. The clone showcases the use of **HTML, CSS, and JavaScript** to mimic the design and functionality of Netflix's user interface.
+This project is a **clone of the Netflix website**, created as part of a personal coding challenge. The clone showcases the use of **HTML, CSS, and JavaScript** to mimic the design and functionality of Netflix's user interface.  
+**Now fully responsive for all screen sizes** 📱💻.
 
 ---
 
@@ -17,6 +18,7 @@ This project is a **clone of the Netflix website**, created as part of a persona
 - 🎭 **Hero Section:** A full-screen banner with a background image and a call-to-action button.
 - 🎬 **Content Sections:** Multiple sections showcasing various content categories, including movies and TV shows.
 - ❓ **FAQ Section with Toggle Functionality:** Expand and collapse FAQs using JavaScript.
+- 📱 **Fully Responsive Design:** Optimized for desktops, tablets, and mobile devices.
 
 ---
 
