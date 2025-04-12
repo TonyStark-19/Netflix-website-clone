@@ -12,6 +12,12 @@ This project is a **clone of the Netflix website**, created as part of a persona
 
 ---
 
+## 🌐 Live Demo  
+
+The project is live and can be viewed here: [Netflix-Clone](https://clone-website-project.vercel.app/)  
+
+---
+
 ## 🚀 Features
 
 - 🖥️ **Header:** Includes Netflix logo, navigation menu, and search bar.
