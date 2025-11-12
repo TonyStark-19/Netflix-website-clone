@@ -1,7 +1,7 @@
 /** background **/
 
 .background-section {
-    background-image: url('images/Netflix-background.png');
+    background-image: url('/images/Other/Netflix-background.png');
     background-size: cover;
     position: relative;
     height: 110vh;
@@ -79,15 +79,47 @@ body {
     width: 100%;
 }
 
-.select select {
-    padding: 6px 20px 6px 20px;
-    color: #fff;
-    background: transparent;
-    height: 32px;
-    width: 120px;
-    font-size: 16px;
+.select {
     border: 1px solid #5e5e5e;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 120px;
+    position: relative;
+}
+
+.select select {
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+    padding: 6px 20px 6px 20px;
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    /* For Safari and Chrome */
+    -moz-appearance: none;
+    /* For Firefox */
+    cursor: pointer;
+}
+
+.select option {
+    width: 100%;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+.select #drop {
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    right: 15px;
 }
 
 .button a {
@@ -97,7 +129,7 @@ body {
 }
 
 .button button {
-    height: 32px;
+    height: 100%;
     width: 76px;
     color: #fff;
     background: #e50914;
@@ -251,15 +283,50 @@ button i {
 .options {
     display: flex;
     gap: 20px;
+    flex-direction: row;
 }
 
-.options select {
-    padding: 8px 36px 8px 12px;
-    background: transparent;
+.option select:focus {
+    outline: none;
+}
+
+.option #drop {
+    position: absolute;
     color: #fff;
+    z-index: 3;
+    right: 15px;
+}
+
+#option2 {
+    width: 140px;
+}
+
+.option {
+    border: 1px solid #5e5e5e;
     border-radius: 5px;
-    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 120px;
+    position: relative;
+}
+
+.option select {
+    cursor: pointer;
+    color: #fff;
+    background: transparent;
+    border: none;
     font-size: 16px;
+    appearance: none;
+    padding: 6px 20px 6px 20px;
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    /* For Safari and Chrome */
+    -moz-appearance: none;
+    /* For Firefox */
 }
 
 select option {
@@ -379,6 +446,14 @@ select option {
     width: 300px;
     border-radius: 15px;
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    position: relative;
+}
+
+.box img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
 }
 
 .text-wrap {

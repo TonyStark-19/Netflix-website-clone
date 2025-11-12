@@ -1,5 +1,4 @@
 // js logic for FAQs
-
 document.addEventListener("DOMContentLoaded", function () {
     const questionBoxes = document.querySelectorAll(".question-wrap");
 
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 // js logic for top 10 movies
-
 const imageWrap = document.querySelector('.image-wrap');
 const scrollRightBtn = document.querySelector('.scroll-icon:last-of-type');
 const scrollLeftBtn = document.getElementById('small-icon-left');

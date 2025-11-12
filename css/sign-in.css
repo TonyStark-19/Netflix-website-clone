@@ -1,7 +1,7 @@
 /** background **/
 
 .background-section {
-    background-image: url('images/Netflix-background.png');
+    background-image: url('/images/Other/Netflix-background.png');
     background-size: cover;
     position: relative;
     height: 110vh;
@@ -356,15 +356,47 @@ ul a {
 
 /** select **/
 
-.select select {
-    padding: 6px 20px 6px 20px;
-    color: #fff;
-    background: #000;
-    height: 32px;
-    width: 120px;
-    font-size: 16px;
+.select {
     border: 1px solid #5e5e5e;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 120px;
+    position: relative;
+}
+
+.select select {
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+    padding: 6px 20px 6px 20px;
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    /* For Safari and Chrome */
+    -moz-appearance: none;
+    /* For Firefox */
+    cursor: pointer;
+}
+
+.select option {
+    width: 100%;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+.select #drop {
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    right: 15px;
 }
 
 select option {
