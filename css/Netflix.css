@@ -21,6 +21,8 @@
     z-index: 1;
 }
 
+/* html / body */
+
 html,
 body {
     width: 100%;
@@ -37,6 +39,26 @@ body {
     padding: 0;
     background-color: #000;
     font: 1em sans-serif;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    height: 8px;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9f9f9f;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #797878
 }
 
 /** navbar **/
@@ -485,6 +507,8 @@ select option {
 .question-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-bottom: 80px;
     cursor: pointer;
@@ -498,6 +522,7 @@ select option {
     flex-direction: column;
     gap: 3px;
     height: auto;
+    width: 100%;
 }
 
 .question {
@@ -722,7 +747,7 @@ ul a {
     }
 
     .box {
-        height: 190px;
+        height: 230px;
         width: 100%;
     }
 
@@ -822,6 +847,7 @@ ul a {
 
     .box {
         margin-bottom: -10px;
+        height: 190px;
     }
 
     /* questions */
@@ -948,11 +974,27 @@ ul a {
     .answer {
         width: 85%;
     }
+
+    /* boxes */
+
+    .box {
+        height: 220px;
+    }
+
+    .box img {
+        width: 70px;
+    }
 }
 
 @media (max-width: 400px) {
 
-    .select select {
-        width: 80px;
+    /* boxes */
+
+    .box {
+        height: 250px;
+    }
+
+    .box img {
+        width: 70px;
     }
 }

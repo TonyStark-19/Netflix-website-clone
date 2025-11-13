@@ -28,6 +28,26 @@ body {
     font: 1em sans-serif;
 }
 
+/* scrollbar */
+
+::-webkit-scrollbar {
+    height: 8px;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9f9f9f;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #797878
+}
+
 /** logo **/
 
 .navbar {
@@ -458,11 +478,12 @@ select option {
 
     .background-section {
         background-image: none;
-        height: 110vh;
+        height: auto;
     }
 
     .sign-in-box {
-        padding-top: 0;
+        padding-top: 30px;
+        padding-bottom: 60px;
         height: 100%;
         width: 100%;
     }
