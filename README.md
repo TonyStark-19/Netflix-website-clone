@@ -1,53 +1,40 @@
 # 🎬 Netflix Website Clone
 
-This project is a **clone of the Netflix website**, created as part of a personal coding challenge. The clone showcases the use of **HTML, CSS, and JavaScript** to mimic the design and functionality of Netflix's user interface.  
-**Now fully responsive for all screen sizes** 📱💻.
+A **Netflix Website Clone** built using **HTML, CSS, and JavaScript**, showcasing responsive design and interactive UI components.  
+This project was created as part of my personal coding challenge to replicate Netflix’s clean and dynamic interface.  
+Now **fully responsive** and compatible across all devices 📱💻.
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Homepage :
-![Homepage Screenshot](images/image.png)
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
----
-
-## 🌐 Live Demo  
-
-The project is live and can be viewed here: [Netflix-Clone](https://clone-website-project.vercel.app/)  
+| Preview 3 | Preview 4 |
+|------------|------------|
+| ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
 ---
 
 ## 🚀 Features
 
-- 🖥️ **Header:** Includes Netflix logo, navigation menu, and search bar.
-- 🎭 **Hero Section:** A full-screen banner with a background image and a call-to-action button.
-- 🎬 **Content Sections:** Multiple sections showcasing various content categories, including movies and TV shows.
-- ❓ **FAQ Section with Toggle Functionality:** Expand and collapse FAQs using JavaScript.
-- 📱 **Fully Responsive Design:** Optimized for desktops, tablets, and mobile devices.
+- 🖥️ **Header:** Includes Netflix logo, navigation menu, and a search bar.  
+- 🎭 **Hero Section:** A large banner with background image, tagline, and call-to-action button.  
+- 🎬 **Content Sections:** Multiple categorized movie and TV show previews.  
+- ❓ **FAQ Section:** Expand/collapse functionality powered by JavaScript.  
+- 🎨 **Font Awesome Integration:** Icons for navigation and UI enhancement.  
+- 📱 **Fully Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- 🖥️ **HTML5** - For structuring the web pages.
-- 🎨 **CSS3** - For styling the website and creating responsive layouts.
-- ⚡ **JavaScript (Vanilla JS)** - For handling the FAQ toggle functionality.
-
----
-
-## 📂 Project Structure
-
-```
-Netflix-Clone/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── images/
-│   └── image.png
-└── README.md
-```
+- **HTML5** → Structuring the content  
+- **CSS3** → Styling, animations, and responsive layout  
+- **JavaScript (Vanilla JS)** → FAQ toggle interactivity  
+- **Font Awesome** → Icons for better visual design  
 
 ---
 
@@ -70,6 +57,9 @@ Netflix-Clone/
 ## 🌟 Acknowledgments
 
 - 🎬 [Netflix](https://www.netflix.com) for design inspiration.
+- 💡 Inspired by modern web design and responsive development practices.
 
 ---
+
+⭐ If you like this project, don’t forget to star the repository!
 
