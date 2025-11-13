@@ -42,12 +42,12 @@ Now **fully responsive** and compatible across all devices 📱💻.
 
 1️⃣ Clone the repository:
 ```bash
-  git clone https://github.com/TonyStark-19/netflix-clone.git
+  git clone https://github.com/TonyStark-19/Netflix-website-clone.git
 ```
 
 2️⃣ Open the project folder:
 ```bash
-  cd netflix-clone
+  cd Netflix-website-clone
 ```
 
 3️⃣ Open the `index.html` file in your browser.
