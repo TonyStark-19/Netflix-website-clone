@@ -8,11 +8,11 @@ Now **fully responsive** and compatible across all devices 📱💻.
 
 ## 📸 Screenshots
 
-| Preview 1 | Preview 2 |
+| 🏠 Home Section | 🎬 Trending Movies Section |
 |------------|------------|
 | ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
-| Preview 3 | Preview 4 |
+| ⭐ Reasons To Join Section | 🔐 Sign In Page |
 |------------|------------|
 | ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
