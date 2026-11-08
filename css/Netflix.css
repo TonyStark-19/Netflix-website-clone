@@ -1,5 +1,4 @@
 /** background **/
-
 .background-section {
     background-image: url('/images/Other/Netflix-background.png');
     background-size: cover;
@@ -22,7 +21,6 @@
 }
 
 /* html / body */
-
 html,
 body {
     width: 100%;
@@ -42,7 +40,6 @@ body {
 }
 
 /* scrollbar */
-
 ::-webkit-scrollbar {
     height: 8px;
     scrollbar-width: thin;
@@ -62,7 +59,6 @@ body {
 }
 
 /** navbar **/
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -167,7 +163,6 @@ body {
 }
 
 /** Center text **/
-
 .center-text {
     padding: 0 32px 32px;
     z-index: 2;
@@ -203,7 +198,6 @@ body {
 }
 
 /** input area **/
-
 .get-started {
     display: flex;
     flex-direction: row;
@@ -286,7 +280,6 @@ button i {
 }
 
 /** content **/
-
 .content {
     padding: 0 148px;
     background: #000;
@@ -301,7 +294,6 @@ button i {
 }
 
 /** select **/
-
 .options {
     display: flex;
     gap: 20px;
@@ -357,7 +349,6 @@ select option {
 }
 
 /** top 10 movies **/
-
 .image-section {
     display: flex;
     flex-direction: row;
@@ -446,7 +437,6 @@ select option {
 }
 
 /** more reasons to join **/
-
 .heading4 h2 {
     font-size: 24px;
     color: #fff;
@@ -455,7 +445,6 @@ select option {
 }
 
 /** boxes **/
-
 .box-wrap {
     display: flex;
     flex-direction: row;
@@ -496,7 +485,6 @@ select option {
 }
 
 /** questions **/
-
 .heading5 h3 {
     font-size: 22px;
     color: #ffffff;
@@ -570,13 +558,11 @@ select option {
 }
 
 /* hidden class */
-
 .hidden {
     display: none;
 }
 
 /** from below questions **/
-
 .wrapper {
     display: flex;
     justify-content: center;
@@ -600,7 +586,6 @@ select option {
 }
 
 /** footer **/
-
 footer {
     background: #000;
     padding: 0 148px 90px 148px;
@@ -622,7 +607,6 @@ footer {
 }
 
 /** footer panel **/
-
 .foot-panel {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -661,16 +645,13 @@ ul a {
 }
 
 /** responsiveness **/
-
 @media (max-width: 1250px) {
-
     .navbar {
         padding: 0 80px;
         width: 88%;
     }
 
     /* home section */
-
     .wrap {
         margin: 0;
     }
@@ -713,13 +694,11 @@ ul a {
     }
 
     /* content */
-
     .content {
         padding: 0 80px;
     }
 
     /* top - 10 movies */
-
     .image-wrap {
         gap: 10px;
         max-width: none;
@@ -740,7 +719,6 @@ ul a {
     }
 
     /* boxes */
-
     .box-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -764,20 +742,17 @@ ul a {
     }
 
     /* questions */
-
     .heading5 h3 {
         margin-top: -20px;
     }
 
     /* footer */
-
     footer {
         padding: 0 80px 96px;
     }
 }
 
 @media (max-width: 960px) {
-
     .navbar {
         padding: 0 32px;
         width: 93%;
@@ -789,7 +764,6 @@ ul a {
     }
 
     /* home section */
-
     .background-section {
         height: 95vh;
     }
@@ -803,13 +777,11 @@ ul a {
     }
 
     /* content */
-
     .content {
         padding: 0 32px;
     }
 
     /* top - 10 movies */
-
     .heading3 h2 {
         font-size: 18px;
         margin-bottom: -10px;
@@ -834,7 +806,6 @@ ul a {
     }
 
     /* boxes */
-
     .heading4 h2 {
         font-size: 18px;
         margin: 12px 0 10px;
@@ -851,7 +822,6 @@ ul a {
     }
 
     /* questions */
-
     .heading5 h3 {
         font-size: 18px;
         margin-top: 60px;
@@ -884,14 +854,12 @@ ul a {
     }
 
     /* footer */
-
     footer {
         padding: 0 32px 96px;
     }
 }
 
 @media (max-width: 840px) {
-
     #input2 {
         width: 380px;
     }
@@ -900,7 +868,6 @@ ul a {
 @media (max-width: 600px) {
 
     /* home section */
-
     .center-text .heading1 h1,
     .center-text .heading2 h3 {
         width: 535px;
@@ -923,7 +890,6 @@ ul a {
     }
 
     /* boxes */
-
     .text-wrap {
         padding: 24px 16px 80px;
     }
@@ -941,7 +907,6 @@ ul a {
     }
 
     /* footer */
-
     footer {
         padding: 0 24px 96px;
     }
@@ -950,7 +915,6 @@ ul a {
 @media (max-width: 580px) {
 
     /* navbar */
-
     .navbar {
         padding: 0 24px;
         width: 90%;
@@ -969,14 +933,12 @@ ul a {
     }
 
     /* question */
-
     .question,
     .answer {
         width: 85%;
     }
 
     /* boxes */
-
     .box {
         height: 220px;
     }
@@ -989,7 +951,6 @@ ul a {
 @media (max-width: 400px) {
 
     /* boxes */
-
     .box {
         height: 250px;
     }

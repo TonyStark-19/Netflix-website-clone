@@ -1,5 +1,4 @@
 /** background **/
-
 .background-section {
     background-image: url('/images/Other/Netflix-background.png');
     background-size: cover;
@@ -29,7 +28,6 @@ body {
 }
 
 /* scrollbar */
-
 ::-webkit-scrollbar {
     height: 8px;
     scrollbar-width: thin;
@@ -49,7 +47,6 @@ body {
 }
 
 /** logo **/
-
 .navbar {
     position: relative;
     z-index: 2;
@@ -75,7 +72,6 @@ body {
 }
 
 /** Sign-in box **/
-
 .wrap {
     position: relative;
     z-index: 2;
@@ -96,7 +92,6 @@ body {
 }
 
 /** title **/
-
 .sign-in-box .title h1 {
     font-size: 32px;
     color: #ffffff;
@@ -104,7 +99,6 @@ body {
 }
 
 /** Input box **/
-
 .input-box {
     position: relative;
 }
@@ -154,7 +148,6 @@ body {
 }
 
 /** button **/
-
 .button button {
     height: 40px;
     width: 314px;
@@ -176,7 +169,6 @@ body {
 }
 
 /** Text between two buttons **/
-
 .text {
     display: flex;
     justify-content: center;
@@ -189,7 +181,6 @@ body {
 }
 
 /** button 2 **/
-
 .code button {
     height: 40px;
     width: 314px;
@@ -211,7 +202,6 @@ body {
 }
 
 /** forgot password **/
-
 .forgot-password {
     display: flex;
     justify-content: center;
@@ -224,7 +214,6 @@ body {
 }
 
 /** remember password **/
-
 .remember {
     display: flex;
     flex-direction: row;
@@ -284,7 +273,6 @@ input[type="checkbox"]:hover {
 }
 
 /** New account **/
-
 .new {
     margin-top: 20px;
 }
@@ -305,7 +293,6 @@ input[type="checkbox"]:hover {
 }
 
 /** recaptcha **/
-
 .bottom-text {
     margin: 20px 0;
 }
@@ -324,7 +311,6 @@ input[type="checkbox"]:hover {
 }
 
 /** footer **/
-
 footer {
     height: 100%;
     width: 100%;
@@ -336,7 +322,6 @@ footer {
 }
 
 /** contact number **/
-
 .contact {
     margin: 32px 0 0;
     padding: 3px;
@@ -348,7 +333,6 @@ footer {
 }
 
 /** panel **/
-
 .foot-panel {
     margin-top: -20px;
     margin-bottom: 25px;
@@ -375,7 +359,6 @@ ul a {
 }
 
 /** select **/
-
 .select {
     border: 1px solid #5e5e5e;
     border-radius: 5px;
@@ -425,9 +408,7 @@ select option {
 }
 
 /* responsiveness */
-
 @media (max-width: 1250px) {
-
     .background-section {
         height: 125vh;
     }
@@ -447,7 +428,6 @@ select option {
 }
 
 @media (max-width: 950px) {
-
     .logo {
         height: 24px;
         width: 89px;
@@ -468,14 +448,12 @@ select option {
 }
 
 @media (max-width: 670px) {
-
     ul li {
         width: 150px;
     }
 }
 
 @media (max-width: 600px) {
-
     .background-section {
         background-image: none;
         height: auto;
@@ -496,7 +474,6 @@ select option {
 }
 
 @media (max-width: 400px) {
-
     .sign-in-box {
         min-width: 280px;
         padding: 0 20px;

@@ -1,6 +1,7 @@
 # 🎬 Netflix Website Clone
 
 A **Netflix Website Clone** built using **HTML, CSS, and JavaScript**, showcasing responsive design and interactive UI components.  
+
 This project was created as part of my personal coding challenge to replicate Netflix’s clean and dynamic interface.  
 Now **fully responsive** and compatible across all devices 📱💻.
 
@@ -20,21 +21,25 @@ Now **fully responsive** and compatible across all devices 📱💻.
 
 ## 🚀 Features
 
-- 🖥️ **Header:** Includes Netflix logo, navigation menu, and a search bar.  
-- 🎭 **Hero Section:** A large banner with background image, tagline, and call-to-action button.  
-- 🎬 **Content Sections:** Multiple categorized movie and TV show previews.  
-- ❓ **FAQ Section:** Expand/collapse functionality powered by JavaScript.  
-- 🎨 **Font Awesome Integration:** Icons for navigation and UI enhancement.  
-- 📱 **Fully Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.  
+| Feature | Description |
+|:---|:---|
+| **Header** | Includes the Netflix logo, navigation menu, and search bar. |
+| **Hero Section** | Features a large promotional banner with a background image, tagline, and call-to-action button. |
+| **Content Sections** | Showcases multiple categories of movie and TV show previews. |
+| **FAQ Section** | Provides expandable and collapsible frequently asked questions using JavaScript. |
+| **Font Awesome Integration** | Adds icons to enhance navigation and the overall user interface. |
+| **Fully Responsive Design** | Adapts seamlessly to desktop, tablet, and mobile screen sizes. |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** → Structuring the content  
-- **CSS3** → Styling, animations, and responsive layout  
-- **JavaScript (Vanilla JS)** → FAQ toggle interactivity  
-- **Font Awesome** → Icons for better visual design  
+| Technology | Purpose |
+|:---|:---|
+| **HTML5** | Defines the structure and content of the website. |
+| **CSS3** | Handles styling, animations, and responsive layouts. |
+| **JavaScript (Vanilla JS)** | Powers FAQ expand/collapse functionality and UI interactivity. |
+| **Font Awesome** | Provides icons for navigation and visual enhancement. |
 
 ---
 
@@ -56,10 +61,11 @@ Now **fully responsive** and compatible across all devices 📱💻.
 
 ## 🌟 Acknowledgments
 
-- 🎬 [Netflix](https://www.netflix.com) for design inspiration.
-- 💡 Inspired by modern web design and responsive development practices.
+| Source | Contribution |
+|:---|:---|
+| [**Netflix**](https://www.netflix.com) | Served as the primary inspiration for the website's design, layout, and streaming interface. |
+| **Modern Web Design Practices** | Inspired the use of responsive layouts, clean UI, and user-friendly design principles. |
 
 ---
 
 ⭐ If you like this project, don’t forget to star the repository!
-
